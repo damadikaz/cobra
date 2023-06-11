@@ -1,0 +1,37 @@
+.contextmenu{
+  border: 1px solid var(--border00);
+  border-radius: var(--rad-m);
+  background-color: #fffc;
+  backdrop-filter: blur(3px);
+  padding: 10px 0;
+  user-select: none;
+ ; z-index: 2;
+
+  & div:hover {
+    background-color: #ddd;
+  }
+  & div{
+    background-color: #fff0;
+    font-size: 0.8rem;
+    padding: 5px 30px;
+    transition: all 200ms;
+  }
+
+  .cm-separator{
+    background-color: var(--border00);
+    height: 1px;
+    margin: 7px;
+    padding: 0;
+  }
+}
+
+.context-bg {
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background-color: #ddd;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+}

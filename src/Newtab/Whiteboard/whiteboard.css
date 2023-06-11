@@ -1,0 +1,12 @@
+.notes{
+
+  .notes-dragdropcontext{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.note{
+  border-radius: var(--rad-l);
+}

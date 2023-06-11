@@ -1,0 +1,4 @@
+.tiles, .notes{
+  border: 1px dashed salmon;
+  border-radius: var(--rad-m);
+}
